@@ -1,0 +1,71 @@
+body {
+  font-family: 'Crimson', serif; }
+
+/*
+  Nav*/
+nav.navbar-default {
+  background: #005416;
+  margin: 0;
+  text-transform: uppercase;
+  padding-bottom: 1em; }
+  nav.navbar-default .logo {
+    width: 40px; }
+  nav.navbar-default .navbar-nav li a {
+    color: white;
+    padding-top: 2em;
+    -webkit-transition: .3s;
+    transition: .3s; }
+  nav.navbar-default .navbar-nav li a:hover {
+    color: black; }
+
+/*
+  jumbotron*/
+header {
+  background: url("../img/slytherin.jpg");
+  background-color: none;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover; }
+  header .jumbotron {
+    margin: 0;
+    padding: 15em 15em 20em 15em;
+    background: rgba(0, 0, 0, 0.5);
+    color: white; }
+    header .jumbotron a {
+      background: #005416;
+      margin: .5em;
+      color: white;
+      -webkit-transition: .3s;
+      transition: .3s; }
+    header .jumbotron a:link {
+      color: white; }
+    header .jumbotron a:hover {
+      color: black; }
+
+.informacion {
+  background: #e3dede; }
+  .informacion .container {
+    position: relative;
+    top: -80px;
+    padding: 2em 4em;
+    background: white; }
+    .informacion .container article {
+      margin-top: 2em; }
+      .informacion .container article figure {
+        overflow: hidden;
+        box-shadow: 1px 5px 10px gray; }
+        .informacion .container article figure img {
+          width: 100%;
+          -webkit-transition: .4s;
+          transition: .4s; }
+        .informacion .container article figure img:hover {
+          -webkit-transform: scale(1.2, 1.2);
+                  transform: scale(1.2, 1.2); }
+    .informacion .container p {
+      font-size: 1.5rem; }
+
+footer {
+  padding: 2em 2em 1em 2em;
+  background: #005416;
+  color: white; }
